@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="xml_tag" deleted="false" description="XSL processing instruction" enabled="true" id="org.eclipse.wst.xml.ui.internal.templates.xslpi" name="XSL processing instruction">&lt;?xml-stylesheet type="text/xsl" href="${cursor}"?&gt;</template><template autoinsert="true" context="xml_all" deleted="false" description="beforePageLoad" enabled="true" name="bfpl">&lt;xp:this.beforePageLoad&gt;&lt;![CDATA[#{javascript:&#13;
 &#13;
+<<<<<<< HEAD
 }]]&gt;&lt;/xp:this.beforePageLoad&gt;</template><template autoinsert="true" context="xml_tag" deleted="false" description="xml comment" enabled="true" id="org.eclipse.wst.xml.ui.internal.templates.comment" name="comment">&lt;!-- ${cursor} --&gt;</template><template autoinsert="true" context="xml_attribute" deleted="false" description="Default Namespace Attribute" enabled="true" id="org.eclipse.wst.xml.ui.internal.templates.defaultnsp" name="default namespace">xmlns="default namespace"</template><template autoinsert="true" context="xml_all" deleted="false" description="LabeledComboBox" enabled="true" name="lcb">&lt;xc:LabeledComboBox label="LC16328~Type"&#13;
 	valueField="" widthInt="280" tabOrder="100"&gt;&#13;
 	&lt;xc:this.items&gt;&lt;![CDATA[#{javascript:return viewScope.xspDoc.getParentCRMDatabase().getKeyword("", "").toComboList();}]]&gt;&lt;/xc:this.items&gt;&#13;
 &lt;/xc:LabeledComboBox&gt;</template><template autoinsert="true" context="xml_all" deleted="false" description="LabeledDateSelection" enabled="true" name="lds">&lt;xc:LabeledDateSelection valueField="StartDateTime"&#13;
+=======
+}]]&gt;&lt;/xp:this.beforePageLoad&gt;</template><template autoinsert="true" context="xml_tag" deleted="false" description="xml comment" enabled="true" id="org.eclipse.wst.xml.ui.internal.templates.comment" name="comment">&lt;!-- ${cursor} --&gt;</template><template autoinsert="true" context="xml_attribute" deleted="false" description="Default Namespace Attribute" enabled="true" id="org.eclipse.wst.xml.ui.internal.templates.defaultnsp" name="default namespace">xmlns="default namespace"</template><template autoinsert="true" context="xml_all" deleted="false" description="LabeledDateSelection" enabled="true" name="lds">&lt;xc:LabeledDateSelection valueField="StartDateTime"&#13;
+>>>>>>> 34bf6427a0a01017d984d2894a0c31317b5ad303
 	type="both" label="LC01740~Start" labelTime="LC01740~Start"&#13;
 	displaySetCurrent="false"&#13;
 	marked="#{javascript:viewScope.secMain.hasMessage('StartDateTime')}"&#13;
 	tabOrder="100" onDateChange="startDateChanged" onTimeChange="startDateChanged"&#13;
 	widthInt="180"&gt;&#13;
+<<<<<<< HEAD
 &lt;/xc:LabeledDateSelection&gt;</template><template autoinsert="true" context="xml_all" deleted="false" description="LabeledEditBox" enabled="true" name="leb">&lt;xc:LabeledEditBox label="" valueField="" widthInt=""&gt;&lt;/xc:LabeledEditBox&gt;</template><template autoinsert="true" context="xml_all" deleted="false" description="LabeledPicklist" enabled="true" name="lpl">&lt;xc:LabeledPicklist widthInt="225" viewToUse="" seperateKeyValue="false" picklistClass=""&#13;
 	tabOrder="700" allowValuesNotInList="false" valueField=""&#13;
 	label="" enableClear="true"&gt;&#13;
@@ -22,6 +27,9 @@ return lst;								&#13;
 		&lt;/xc:searchParams&gt;&#13;
 	&lt;/xc:this.searchParams&gt;&#13;
 &lt;/xc:LabeledPicklist&gt;</template><template autoinsert="true" context="xml_attribute" deleted="false" description="No Namespace Schema Location" enabled="true" id="org.eclipse.wst.xml.ui.internal.templates.noschemaLoc" name="noschemaLoc">xsi:noNamespaceSchemaLocation="{location}"</template><template autoinsert="true" context="xml_all" deleted="false" description="rendered property" enabled="true" name="rendered">&lt;xp:this.rendered&gt;&lt;![CDATA[#{javascript:&#13;
+=======
+&lt;/xc:LabeledDateSelection&gt;</template><template autoinsert="true" context="xml_all" deleted="false" description="LabeledEditBox" enabled="true" name="leb">&lt;xc:LabeledEditBox label="" valueField="" widthInt=""&gt;&lt;/xc:LabeledEditBox&gt;</template><template autoinsert="true" context="xml_attribute" deleted="false" description="No Namespace Schema Location" enabled="true" id="org.eclipse.wst.xml.ui.internal.templates.noschemaLoc" name="noschemaLoc">xsi:noNamespaceSchemaLocation="{location}"</template><template autoinsert="true" context="xml_all" deleted="false" description="rendered property" enabled="true" name="rendered">&lt;xp:this.rendered&gt;&lt;![CDATA[#{javascript:&#13;
+>>>>>>> 34bf6427a0a01017d984d2894a0c31317b5ad303
 &#13;
 }]]&gt;&lt;/xp:this.rendered&gt;</template><template autoinsert="true" context="xml_all" deleted="false" description="scriptBlock" enabled="true" name="sb">&lt;xp:scriptBlock&gt;&#13;
 	&lt;xp:this.value&gt;&lt;![CDATA[&#13;
