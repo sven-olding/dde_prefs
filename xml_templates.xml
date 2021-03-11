@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="xml_tag" deleted="false" description="XSL processing instruction" enabled="true" id="org.eclipse.wst.xml.ui.internal.templates.xslpi" name="XSL processing instruction">&lt;?xml-stylesheet type="text/xsl" href="${cursor}"?&gt;</template><template autoinsert="true" context="xml_all" deleted="false" description="beforePageLoad" enabled="true" name="bfpl">&lt;xp:this.beforePageLoad&gt;&lt;![CDATA[#{javascript:&#13;
+&#13;
+}]]&gt;&lt;/xp:this.beforePageLoad&gt;</template><template autoinsert="true" context="xml_tag" deleted="false" description="xml comment" enabled="true" id="org.eclipse.wst.xml.ui.internal.templates.comment" name="comment">&lt;!-- ${cursor} --&gt;</template><template autoinsert="true" context="xml_attribute" deleted="false" description="Default Namespace Attribute" enabled="true" id="org.eclipse.wst.xml.ui.internal.templates.defaultnsp" name="default namespace">xmlns="default namespace"</template><template autoinsert="true" context="xml_all" deleted="false" description="LabeledDateSelection" enabled="true" name="lds">&lt;xc:LabeledDateSelection valueField="StartDateTime"&#13;
+	type="both" label="LC01740~Start" labelTime="LC01740~Start"&#13;
+	displaySetCurrent="false"&#13;
+	marked="#{javascript:viewScope.secMain.hasMessage('StartDateTime')}"&#13;
+	tabOrder="100" onDateChange="startDateChanged" onTimeChange="startDateChanged"&#13;
+	widthInt="180"&gt;&#13;
+&lt;/xc:LabeledDateSelection&gt;</template><template autoinsert="true" context="xml_all" deleted="false" description="LabeledEditBox" enabled="true" name="leb">&lt;xc:LabeledEditBox label="" valueField="" widthInt=""&gt;&lt;/xc:LabeledEditBox&gt;</template><template autoinsert="true" context="xml_attribute" deleted="false" description="No Namespace Schema Location" enabled="true" id="org.eclipse.wst.xml.ui.internal.templates.noschemaLoc" name="noschemaLoc">xsi:noNamespaceSchemaLocation="{location}"</template><template autoinsert="true" context="xml_all" deleted="false" description="rendered property" enabled="true" name="rendered">&lt;xp:this.rendered&gt;&lt;![CDATA[#{javascript:&#13;
+&#13;
+}]]&gt;&lt;/xp:this.rendered&gt;</template><template autoinsert="true" context="xml_all" deleted="false" description="scriptBlock" enabled="true" name="sb">&lt;xp:scriptBlock&gt;&#13;
+	&lt;xp:this.value&gt;&lt;![CDATA[&#13;
+				&#13;
+	]]&gt;&lt;/xp:this.value&gt;&#13;
+&lt;/xp:scriptBlock&gt;</template><template autoinsert="true" context="xml_attribute" deleted="false" description="XML Schema location attribute" enabled="true" id="org.eclipse.wst.xml.ui.internal.templates.schemaLoc" name="schemaLoc">xsi:schemaLocation="{namespace} {location}"</template><template autoinsert="true" context="xml_all" deleted="false" description="scriptBlockSSJS" enabled="true" name="ssb">&lt;xp:scriptBlock&gt;&#13;
+	&lt;xp:this.value&gt;&lt;![CDATA[#{javascript:&#13;
+				&#13;
+	}]]&gt;&lt;/xp:this.value&gt;&#13;
+&lt;/xp:scriptBlock&gt;</template><template autoinsert="true" context="xml_attribute" deleted="false" description="Custom Control Namespace" enabled="true" name="xcnsp">xmlns:xc="http://www.ibm.com/xsp/custom"</template><template autoinsert="true" context="xml_attribute" deleted="false" description="ExtLib Namespace" enabled="true" name="xensp">xmlns:xe="http://www.ibm.com/xsp/coreex"</template><template autoinsert="true" context="xml_new" deleted="false" description="xml declaration" enabled="true" id="org.eclipse.wst.xml.ui.internal.templates.xmldeclaration" name="xml declaration">&lt;?xml version="1.0" encoding="${encoding}"?&gt;</template><template autoinsert="true" context="xml_attribute" deleted="false" description="XML Schema name space" enabled="true" id="org.eclipse.wst.xml.ui.internal.templates.xsinsp" name="xsinsp">xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"</template></templates>
