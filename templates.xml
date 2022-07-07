@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="Recycle Domino Objects" enabled="true" name="recycle">		private void recycle(Base... objects)&#13;
+	{&#13;
+		for (Base o : objects) {&#13;
+			try {&#13;
+				if (o != null) {&#13;
+					o.recycle();&#13;
+				}&#13;
+			} catch (NotesException e) {&#13;
+				// ignore&#13;
+			}&#13;
+		}&#13;
+	}</template></templates>
